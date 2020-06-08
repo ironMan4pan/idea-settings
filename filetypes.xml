@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="new" type="PLAIN_TEXT" />
+      <mapping pattern="新建文本文档" type="PLAIN_TEXT" />
+      <mapping ext="cnf" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
