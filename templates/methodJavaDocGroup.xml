@@ -1,5 +1,5 @@
 <templateSet group="methodJavaDocGroup">
-  <template name="*" value=" * @Author gaopan&#10; * @Description TODO &#10; * @Date $time$ $date$&#10; * @param $param$&#10; * @return $return$&#10; * @Version 1.0&#10; * Modified by : gaopan $time$ $date$&#10;**/" shortcut="ENTER" toReformat="true" toShortenFQNames="true">
+  <template name="*" value=" * @Author gaopan&#10; * @Description TODO &#10; * @Date $time$ $date$&#10; * @param $param$&#10; * @return $return$&#10; * @Version 1.0&#10; * Modified by : gaopan $time$ $date$&#10;**/" shortcut="ENTER" description="" toReformat="true" toShortenFQNames="true">
     <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="param" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
