@@ -26,12 +26,8 @@
     </option>
   </component>
   <component name="Settings">
-    <option name="googleTranslateSettings">
-      <google-translate>
-        <option name="primaryLanguage" value="ENGLISH" />
-      </google-translate>
-    </option>
     <option name="ignoreRegExp" value="" />
     <option name="keepFormat" value="true" />
+    <option name="targetLanguageSelection" value="PRIMARY_LANGUAGE" />
   </component>
 </application>
