@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="file Directory Path" />
+      <item value="directory Path" />
+      <item value="rename Same File Name" />
+      <item value="Solution" />
       <item value="exist" />
       <item value="Relation" />
       <item value="complet" />
@@ -25,8 +29,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="19" />
-        <entry key="ENGLISH" value="20" />
+        <entry key="CHINESE" value="24" />
+        <entry key="ENGLISH" value="25" />
         <entry key="ROMANIAN" value="1" />
       </map>
     </option>
