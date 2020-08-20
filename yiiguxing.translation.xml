@@ -1,6 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="数据字典" />
+      <item value="Dict" />
+      <item value="get Task Id No Dict Conversion" />
+      <item value="get Bytask Id No Dict Conversion" />
+      <item value="无字典转换" />
+      <item value="get Task Id No Dict Convert" />
+      <item value="get Bytask Id No Dict Convert" />
+      <item value="get Bytask Id No Convert Dict" />
+      <item value="Data Item" />
       <item value="finish" />
       <item value="file Directory Path" />
       <item value="directory Path" />
@@ -30,8 +39,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="25" />
-        <entry key="ENGLISH" value="26" />
+        <entry key="CHINESE" value="32" />
+        <entry key="ENGLISH" value="33" />
         <entry key="ROMANIAN" value="1" />
       </map>
     </option>
