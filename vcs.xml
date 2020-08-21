@@ -22,6 +22,14 @@
           <option name="url" value="https://git.taiji.com.cn:443/gaopan/aug-java.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="ssh://git@gitlab.taiji.com.cn:10022/zhuohao/gateway.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.taiji.com.cn/zhuohao/gateway.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="H:\code\taiji" />
