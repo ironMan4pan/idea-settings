@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Highlighted commands can be interpreted and executed by the IDE in a smart way.&#10;&#9;&#9;Press Ctrl+Enter to try this, or Enter to run the command in the console as usual.&#10;&#9;&#9;You can turn this behavior on/off in Preferences | Tools | Terminal. Got it!" />
       <item value="convert" />
       <item value="conver" />
       <item value="Convert" />
@@ -54,7 +55,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="46" />
-        <entry key="ENGLISH" value="44" />
+        <entry key="ENGLISH" value="45" />
         <entry key="ROMANIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
       </map>
