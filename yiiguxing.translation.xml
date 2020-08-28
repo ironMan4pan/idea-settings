@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist." />
       <item value="template might not exist or might not be accessible by any of the configured Template Resolvers" />
       <item value="token Services Override" />
       <item value="Integrate" />
@@ -50,12 +51,11 @@
       <item value="character" />
       <item value="Character" />
       <item value="Could not get any response There was an error connecting to https://localhost:8080/api/supervise/getSupervise. Why this might have happened: The server couldn't send a response: Ensure that the backend is working properly Self-signed SSL certificates are being blocked: Fix this by turning off 'SSL certificate verification' in Settings &gt; General Proxy configured incorrectly Ensure that proxy is configured correctly in Settings &gt; Proxy Request timeout: Change request timeout in Settings &gt; General" />
-      <item value="Catalog" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="47" />
-        <entry key="ENGLISH" value="48" />
+        <entry key="CHINESE" value="48" />
+        <entry key="ENGLISH" value="49" />
         <entry key="ROMANIAN" value="2" />
         <entry key="SLOVENIAN" value="2" />
       </map>
