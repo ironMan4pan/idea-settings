@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="receive" />
       <item value="&#9;// Over-riding to make sure this.disableLocalConfigureAuthenticationBldr = false&#10;&#9;&#9;// This will ensure that when this configurer builds the AuthenticationManager it will not attempt&#10;&#9;&#9;// to find another 'Global' AuthenticationManager in the ApplicationContext (if available),&#10;&#9;&#9;// and set that as the parent of this 'Local' AuthenticationManager.&#10;&#9;&#9;// This AuthenticationManager should only be wired up with an AuthenticationProvider&#10;&#9;&#9;// composed of the ClientDetailsService (wired in this configuration) for authenticating 'clients' only." />
       <item value="com.itextpdf.io.IOException: Type of font is not recognized." />
       <item value="org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.&#10;&#9;at org.apache.xerces.dom.ElementImpl.setIdAttributeNS(Unknown Source) ~[xercesImpl-2.11.0.jar:na]" />
@@ -50,12 +51,11 @@
       <item value="清除token失败" />
       <item value="Invalidating" />
       <item value="splice" />
-      <item value="拼接" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="53" />
-        <entry key="ENGLISH" value="54" />
+        <entry key="CHINESE" value="54" />
+        <entry key="ENGLISH" value="55" />
         <entry key="ROMANIAN" value="2" />
         <entry key="SLOVENIAN" value="2" />
       </map>
