@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="rapid change" />
+      <item value="急剧变化" />
+      <item value="急剧下降" />
+      <item value="sharp" />
+      <item value="Sharp" />
       <item value="last term enterprise classification" />
       <item value="last enterprise classification" />
       <item value="上一期" />
@@ -46,16 +51,11 @@
       <item value="get Bytask Id No Dict Conversion" />
       <item value="无字典转换" />
       <item value="get Task Id No Dict Convert" />
-      <item value="get Bytask Id No Dict Convert" />
-      <item value="get Bytask Id No Convert Dict" />
-      <item value="Data Item" />
-      <item value="finish" />
-      <item value="file Directory Path" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="65" />
-        <entry key="ENGLISH" value="66" />
+        <entry key="CHINESE" value="69" />
+        <entry key="ENGLISH" value="70" />
         <entry key="ROMANIAN" value="2" />
         <entry key="SLOVENIAN" value="2" />
       </map>
