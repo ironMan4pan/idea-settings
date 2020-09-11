@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="last term enterprise classification" />
+      <item value="last enterprise classification" />
+      <item value="上一期" />
       <item value="信用结果下降数" />
       <item value="信用结果上升数" />
       <item value="上升数" />
@@ -48,14 +51,11 @@
       <item value="Data Item" />
       <item value="finish" />
       <item value="file Directory Path" />
-      <item value="directory Path" />
-      <item value="rename Same File Name" />
-      <item value="Solution" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="63" />
-        <entry key="ENGLISH" value="63" />
+        <entry key="CHINESE" value="65" />
+        <entry key="ENGLISH" value="66" />
         <entry key="ROMANIAN" value="2" />
         <entry key="SLOVENIAN" value="2" />
       </map>
