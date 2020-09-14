@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="&#9;/**&#10;&#9; * Set the ttl to apply for cache entries. Use {@link Duration#ZERO} to declare an eternal cache.&#10;&#9; *&#10;&#9; * @param ttl must not be {@literal null}.&#10;&#9; * @return new {@link RedisCacheConfiguration}.&#10;&#9; */" />
       <item value="rapid change" />
       <item value="急剧变化" />
       <item value="急剧下降" />
@@ -50,12 +51,11 @@
       <item value="get Task Id No Dict Conversion" />
       <item value="get Bytask Id No Dict Conversion" />
       <item value="无字典转换" />
-      <item value="get Task Id No Dict Convert" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="69" />
-        <entry key="ENGLISH" value="70" />
+        <entry key="CHINESE" value="70" />
+        <entry key="ENGLISH" value="71" />
         <entry key="ROMANIAN" value="2" />
         <entry key="SLOVENIAN" value="2" />
       </map>
