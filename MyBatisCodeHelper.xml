@@ -2,6 +2,7 @@
   <component name="MyBatisCodeHelper">
     <option name="profile">
       <Profile>
+        <option name="generateWithIfTest" value="true" />
         <option name="userMacSet">
           <set>
             <option value="00-FF-13-B8-B2-9F" />
