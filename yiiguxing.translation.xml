@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="prepare" />
       <item value="Schedul" />
       <item value="/**&#10;     * Decrements the count of the latch, releasing all waiting threads if&#10;     * the count reaches zero.&#10;     *&#10;     * &lt;p&gt;If the current count is greater than zero then it is decremented.&#10;     * If the new count is zero then all waiting threads are re-enabled for&#10;     * thread scheduling purposes.&#10;     *&#10;     * &lt;p&gt;If the current count equals zero then nothing happens.&#10;     */" />
       <item value="Project distribution archive is produced under this module&#10;* **core:** &#10;Core implementation&#10;* **dbdialog:** &#10;Database dialog&#10;* **ui:** &#10;User interface&#10;* **engine:** &#10;PDI engine&#10;* **engine-ext:** &#10;PDI engine extensions&#10;* **[plugins:](plugins/README.md)** &#10;PDI core plugins&#10;* **integration:** &#10;Integration tests" />
@@ -50,12 +51,11 @@
       <item value="外部服务" />
       <item value="第三方服务" />
       <item value="module" />
-      <item value="lookup" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="75" />
-        <entry key="ENGLISH" value="75" />
+        <entry key="ENGLISH" value="76" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
