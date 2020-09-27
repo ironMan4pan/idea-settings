@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="shuffler" />
       <item value="prepare" />
       <item value="Schedul" />
       <item value="/**&#10;     * Decrements the count of the latch, releasing all waiting threads if&#10;     * the count reaches zero.&#10;     *&#10;     * &lt;p&gt;If the current count is greater than zero then it is decremented.&#10;     * If the new count is zero then all waiting threads are re-enabled for&#10;     * thread scheduling purposes.&#10;     *&#10;     * &lt;p&gt;If the current count equals zero then nothing happens.&#10;     */" />
@@ -50,12 +51,11 @@
       <item value="External" />
       <item value="外部服务" />
       <item value="第三方服务" />
-      <item value="module" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="75" />
-        <entry key="ENGLISH" value="76" />
+        <entry key="CHINESE" value="76" />
+        <entry key="ENGLISH" value="77" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
