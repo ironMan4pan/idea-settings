@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="exist Any Request Config" />
+      <item value="current Is Any Request Config" />
       <item value="/* (non-Javadoc)&#10;&#9; * @see com.imooc.security.core.authorize.AuthorizeConfigManager#config(org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer.ExpressionInterceptUrlRegistry)&#10;&#9; */" />
       <item value="case Sensitive" />
       <item value="Indicates the dependency is optional for use of this library. While the version of the dependency will be&#10;            taken into account for dependency calculation if the library is used elsewhere, it will not be passed on&#10;            transitively." />
@@ -49,13 +51,11 @@
       <item value="&#9;// Over-riding to make sure this.disableLocalConfigureAuthenticationBldr = false&#10;&#9;&#9;// This will ensure that when this configurer builds the AuthenticationManager it will not attempt&#10;&#9;&#9;// to find another 'Global' AuthenticationManager in the ApplicationContext (if available),&#10;&#9;&#9;// and set that as the parent of this 'Local' AuthenticationManager.&#10;&#9;&#9;// This AuthenticationManager should only be wired up with an AuthenticationProvider&#10;&#9;&#9;// composed of the ClientDetailsService (wired in this configuration) for authenticating 'clients' only." />
       <item value="com.itextpdf.io.IOException: Type of font is not recognized." />
       <item value="org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.&#10;&#9;at org.apache.xerces.dom.ElementImpl.setIdAttributeNS(Unknown Source) ~[xercesImpl-2.11.0.jar:na]" />
-      <item value="&#10;/**&#10; * Main entry point of font selector logic.&#10; * Contains reusable {@link FontSet} and collection of {@link PdfFont}s.&#10; * FontProvider depends on {@link PdfDocument} due to {@link PdfFont}, so it cannot be reused for different documents&#10; * unless reset with {@link FontProvider#reset()} or recreated with {@link FontProvider#getFontSet()}.&#10; * In the former case the {@link FontSelectorCache} is reused and in the latter it's reinitialised.&#10; * FontProvider the only end point for creating {@link PdfFont}.&#10; * &lt;p&gt;&#10; * It is allowed to use only one {@link FontProvider} per document. If temporary fonts per element needed,&#10; * additional {@link FontSet} can be used. For more details see {@link com.itextpdf.layout.property.Property#FONT_SET},&#10; * {@link #getPdfFont(FontInfo, FontSet)}, {@link #getStrategy(String, List, FontCharacteristics, FontSet)}.&#10; * &lt;p&gt;&#10; * Note, FontProvider does not close created {@link FontProgram}s, because of possible conflicts with {@link FontCache}.&#10; */" />
-      <item value="ERROR:  'NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.'&#10;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="92" />
-        <entry key="ENGLISH" value="93" />
+        <entry key="CHINESE" value="94" />
+        <entry key="ENGLISH" value="95" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
