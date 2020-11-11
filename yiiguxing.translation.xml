@@ -1,63 +1,66 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="/**&#10;&#9; * Allows restricting access based upon the {@link HttpServletRequest} using&#10;&#9; *&#10;&#9; * &lt;h2&gt;Example Configurations&lt;/h2&gt;&#10;&#9; *&#10;&#9; * The most basic example is to configure all URLs to require the role &quot;ROLE_USER&quot;.&#10;&#9; * The configuration below requires authentication to every URL and will grant access&#10;&#9; * to both the user &quot;admin&quot; and &quot;user&quot;.&#10;&#9; *&#10;&#9; * &lt;pre&gt;&#10;&#9; * &amp;#064;Configuration&#10;&#9; * &amp;#064;EnableWebSecurity&#10;&#9; * public class AuthorizeUrlsSecurityConfig extends WebSecurityConfigurerAdapter {&#10;&#9; *&#10;&#9; * &#9;&amp;#064;Override&#10;&#9; * &#9;protected void configure(HttpSecurity http) throws Exception {&#10;&#9; * &#9;&#9;http.authorizeRequests().antMatchers(&amp;quot;/**&amp;quot;).hasRole(&amp;quot;USER&amp;quot;).and().formLogin();&#10;&#9; * &#9;}&#10;&#9; *&#10;&#9; * &#9;&amp;#064;Override&#10;&#9; * &#9;protected void configure(AuthenticationManagerBuilder auth) throws Exception {&#10;&#9; * &#9;&#9;auth.inMemoryAuthentication().withUser(&amp;quot;user&amp;quot;).password(&amp;quot;password&amp;quot;).roles(&amp;quot;USER&amp;quot;)&#10;&#9; * &#9;&#9;&#9;&#9;.and().withUser(&amp;quot;admin&amp;quot;).password(&amp;quot;password&amp;quot;).roles(&amp;quot;ADMIN&amp;quot;, &amp;quot;USER&amp;quot;);&#10;&#9; * &#9;}&#10;&#9; * }&#10;&#9; * &lt;/pre&gt;&#10;&#9; *&#10;&#9; * We can also configure multiple URLs. The configuration below requires&#10;&#9; * authentication to every URL and will grant access to URLs starting with /admin/ to&#10;&#9; * only the &quot;admin&quot; user. All other URLs either user can access.&#10;&#9; *&#10;&#9; * &lt;pre&gt;&#10;&#9; * &amp;#064;Configuration&#10;&#9; * &amp;#064;EnableWebSecurity&#10;&#9; * public class AuthorizeUrlsSecurityConfig extends WebSecurityConfigurerAdapter {&#10;&#9; *&#10;&#9; * &#9;&amp;#064;Override&#10;&#9; * &#9;protected void configure(HttpSecurity http) throws Exception {&#10;&#9; * &#9;&#9;http.authorizeRequests().antMatchers(&amp;quot;/admin/**&amp;quot;).hasRole(&amp;quot;ADMIN&amp;quot;)&#10;&#9; * &#9;&#9;&#9;&#9;.antMatchers(&amp;quot;/**&amp;quot;).hasRole(&amp;quot;USER&amp;quot;).and().formLogin();&#10;&#9; * &#9;}&#10;&#9; *&#10;&#9; * &#9;&amp;#064;Override&#10;&#9; * &#9;protected void configure(AuthenticationManagerBuilder auth) throws Exception {&#10;&#9; * &#9;&#9;auth.inMemoryAuthentication().withUser(&amp;quot;user&amp;quot;).password(&amp;quot;password&amp;quot;).roles(&amp;quot;USER&amp;quot;)&#10;&#9; * &#9;&#9;&#9;&#9;.and().withUser(&amp;quot;admin&amp;quot;).password(&amp;quot;password&amp;quot;).roles(&amp;quot;ADMIN&amp;quot;, &amp;quot;USER&amp;quot;);&#10;&#9; * &#9;}&#10;&#9; * }&#10;&#9; * &lt;/pre&gt;&#10;&#9; *&#10;&#9; * Note that the matchers are considered in order. Therefore, the following is invalid&#10;&#9; * because the first matcher matches every request and will never get to the second&#10;&#9; * mapping:&#10;&#9; *&#10;&#9; * &lt;pre&gt;&#10;&#9; * http.authorizeRequests().antMatchers(&amp;quot;/**&amp;quot;).hasRole(&amp;quot;USER&amp;quot;).antMatchers(&amp;quot;/admin/**&amp;quot;)&#10;&#9; * &#9;&#9;.hasRole(&amp;quot;ADMIN&amp;quot;)&#10;&#9; * &lt;/pre&gt;&#10;&#9; *&#10;&#9; * @see #requestMatcher(RequestMatcher)&#10;&#9; *&#10;&#9; * @return the {@link ExpressionUrlAuthorizationConfigurer} for further customizations&#10;&#9; * @throws Exception&#10;&#9; */" />
+      <item value="exist Any Request Config" />
+      <item value="current Is Any Request Config" />
+      <item value="/* (non-Javadoc)&#10;&#9; * @see com.imooc.security.core.authorize.AuthorizeConfigManager#config(org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer.ExpressionInterceptUrlRegistry)&#10;&#9; */" />
+      <item value="case Sensitive" />
+      <item value="Indicates the dependency is optional for use of this library. While the version of the dependency will be&#10;            taken into account for dependency calculation if the library is used elsewhere, it will not be passed on&#10;            transitively." />
+      <item value="swtich" />
+      <item value="encrypted Password" />
+      <item value="cipher Password" />
+      <item value="cipher" />
+      <item value="密文密码" />
+      <item value="密文" />
+      <item value="en" />
+      <item value="encrypt" />
+      <item value="/**&#10;     * For circulatory partition, calculated value of target partition needs to be&#10;     * rotated to fit the partition range&#10;     */" />
+      <item value="/**&#10;         * If target date is previous of start time of partition setting, shift&#10;         * the delta range between target and start date to be positive value&#10;         */" />
+      <item value="/**&#10;             * For circulatory partition, calculated value of target partition needs to be&#10;             * rotated to fit the partition range&#10;             */" />
+      <item value="Type safe sql support, plugin can recognize mybatis dynamic sql&#10;        Code Formatter&#10;        Generate mybatis crud code by Intellij database table or add a database connection&#10;        Generate mybatis sql based on mybatis interface method name like spring data jpa, with this, you don't have to write most sql for non join query support generate statement with if test&#10;        Database generate crud could generate multiple times when you add or delete columns, plugin will auto merge code&#10;        Full mybatis sql auto complete, recognize mybatis tag in xml, like where trim set include ect,provide sql completion after those tag&#10;        Jump from mybatis dao interface to mapper xml each other&#10;        Refactor for mybatis interface method name,refid,resultMap ect&#10;        Auto complete for mybatis param,if test,foreach,resultMap,refid in sql&#10;        Generate create table sql from java class&#10;        Mybatis Param refactor and inspection&#10;        Ognl support, if test when test ${ bind foreach collection, refactor and inspection and auto completion&#10;        Jump from refid resultMap to their definition, refactor their name as well&#10;        Generate page query by mapper interface method&#10;        Spring support for mybatis, inject mybatis mapper to spring bean,support SpringBoot&#10;        Refid,resultMap,keyProperty,property auto complete&#10;        Add @param for mapper method&#10;        Resultmap column complete and inspection by parse reference select statement&#10;        Auto map resultMap column and property&#10;        Generate mybatis mapper testcase from mybatis interface method by database connection, make you test method quicker&#10;        Full inspection for mybatis, like unused sql in xml, mapper method not have sql in xml, check if resultMap property is right ect&#10;&#10;        https://github.com/gejun123456/MyBatisCodeHelper-Pro to learn more.&#10;        How to use&#10;        view on https://github.com/gejun123456/MyBatisCodeHelper-Pro&#10;        qqGroup:914051156" />
+      <item value="advice Number" />
+      <item value="adjust Channel Number" />
+      <item value="shuffler" />
+      <item value="prepare" />
+      <item value="Schedul" />
+      <item value="/**&#10;     * Decrements the count of the latch, releasing all waiting threads if&#10;     * the count reaches zero.&#10;     *&#10;     * &lt;p&gt;If the current count is greater than zero then it is decremented.&#10;     * If the new count is zero then all waiting threads are re-enabled for&#10;     * thread scheduling purposes.&#10;     *&#10;     * &lt;p&gt;If the current count equals zero then nothing happens.&#10;     */" />
+      <item value="Project distribution archive is produced under this module&#10;* **core:** &#10;Core implementation&#10;* **dbdialog:** &#10;Database dialog&#10;* **ui:** &#10;User interface&#10;* **engine:** &#10;PDI engine&#10;* **engine-ext:** &#10;PDI engine extensions&#10;* **[plugins:](plugins/README.md)** &#10;PDI core plugins&#10;* **integration:** &#10;Integration tests" />
+      <item value="/**&#10;     * Return the value if present, otherwise return {@code other}.&#10;     *&#10;     * @param other the value to be returned if there is no value present, may&#10;     * be null&#10;     * @return the value, if present, otherwise {@code other}&#10;     */&#10;    public T orElse(T other) {" />
+      <item value="license" />
+      <item value="lisense" />
+      <item value="/**&#10; * Beans on which the current bean depends. Any beans specified are guaranteed to be&#10; * created by the container before this bean. Used infrequently in cases where a bean&#10; * does not explicitly depend on another through properties or constructor arguments,&#10; * but rather depends on the side effects of another bean's initialization.&#10; *&#10; * &lt;p&gt;A depends-on declaration can specify both an initialization-time dependency and,&#10; * in the case of singleton beans only, a corresponding destruction-time dependency.&#10; * Dependent beans that define a depends-on relationship with a given bean are destroyed&#10; * first, prior to the given bean itself being destroyed. Thus, a depends-on declaration&#10; * can also control shutdown order.&#10; *&#10; * &lt;p&gt;May be used on any class directly or indirectly annotated with&#10; * {@link org.springframework.stereotype.Component} or on methods annotated&#10; * with {@link Bean}.&#10; *&#10; * &lt;p&gt;Using {@link DependsOn} at the class level has no effect unless component-scanning&#10; * is being used. If a {@link DependsOn}-annotated class is declared via XML,&#10; * {@link DependsOn} annotation metadata is ignored, and&#10; * {@code &lt;bean depends-on=&quot;...&quot;/&gt;} is respected instead.&#10; *&#10; * @author Juergen Hoeller&#10; * @since 3.0&#10; */" />
+      <item value="&#9;/**&#10;&#9; * Set the ttl to apply for cache entries. Use {@link Duration#ZERO} to declare an eternal cache.&#10;&#9; *&#10;&#9; * @param ttl must not be {@literal null}.&#10;&#9; * @return new {@link RedisCacheConfiguration}.&#10;&#9; */" />
+      <item value="rapid change" />
+      <item value="急剧变化" />
+      <item value="急剧下降" />
+      <item value="sharp" />
+      <item value="Sharp" />
+      <item value="last term enterprise classification" />
+      <item value="last enterprise classification" />
+      <item value="上一期" />
+      <item value="信用结果下降数" />
+      <item value="信用结果上升数" />
+      <item value="上升数" />
+      <item value="新增数" />
+      <item value="本期新增" />
+      <item value="本期新增评价数" />
+      <item value="period" />
+      <item value="本期信用评价总数" />
+      <item value="最新评估日期" />
+      <item value="receive" />
       <item value="&#9;// Over-riding to make sure this.disableLocalConfigureAuthenticationBldr = false&#10;&#9;&#9;// This will ensure that when this configurer builds the AuthenticationManager it will not attempt&#10;&#9;&#9;// to find another 'Global' AuthenticationManager in the ApplicationContext (if available),&#10;&#9;&#9;// and set that as the parent of this 'Local' AuthenticationManager.&#10;&#9;&#9;// This AuthenticationManager should only be wired up with an AuthenticationProvider&#10;&#9;&#9;// composed of the ClientDetailsService (wired in this configuration) for authenticating 'clients' only." />
       <item value="com.itextpdf.io.IOException: Type of font is not recognized." />
-      <item value="org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.&#10;&#9;at org.apache.xerces.dom.ElementImpl.setIdAttributeNS(Unknown Source) ~[xercesImpl-2.11.0.jar:na]" />
-      <item value="&#10;/**&#10; * Main entry point of font selector logic.&#10; * Contains reusable {@link FontSet} and collection of {@link PdfFont}s.&#10; * FontProvider depends on {@link PdfDocument} due to {@link PdfFont}, so it cannot be reused for different documents&#10; * unless reset with {@link FontProvider#reset()} or recreated with {@link FontProvider#getFontSet()}.&#10; * In the former case the {@link FontSelectorCache} is reused and in the latter it's reinitialised.&#10; * FontProvider the only end point for creating {@link PdfFont}.&#10; * &lt;p&gt;&#10; * It is allowed to use only one {@link FontProvider} per document. If temporary fonts per element needed,&#10; * additional {@link FontSet} can be used. For more details see {@link com.itextpdf.layout.property.Property#FONT_SET},&#10; * {@link #getPdfFont(FontInfo, FontSet)}, {@link #getStrategy(String, List, FontCharacteristics, FontSet)}.&#10; * &lt;p&gt;&#10; * Note, FontProvider does not close created {@link FontProgram}s, because of possible conflicts with {@link FontCache}.&#10; */" />
-      <item value="ERROR:  'NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist.'&#10;" />
-      <item value="org.w3c.dom.DOMException: NOT_FOUND_ERR: An attempt is made to reference a node in a context where it does not exist." />
-      <item value="template might not exist or might not be accessible by any of the configured Template Resolvers" />
-      <item value="token Services Override" />
-      <item value="Integrate" />
-      <item value="get User Info From User Center" />
-      <item value="RL" />
-      <item value="Highlighted commands can be interpreted and executed by the IDE in a smart way.&#10;&#9;&#9;Press Ctrl+Enter to try this, or Enter to run the command in the console as usual.&#10;&#9;&#9;You can turn this behavior on/off in Preferences | Tools | Terminal. Got it!" />
-      <item value="convert" />
-      <item value="conver" />
-      <item value="Convert" />
-      <item value="Pojo Convert Utils" />
-      <item value="rpc" />
-      <item value="service" />
-      <item value="outward" />
-      <item value="External" />
-      <item value="外部服务" />
-      <item value="第三方服务" />
-      <item value="module" />
-      <item value="lookup" />
-      <item value="lookup parent from repository" />
-      <item value="Base Demo project for Spring Boot" />
-      <item value="数据字典" />
-      <item value="Dict" />
-      <item value="get Task Id No Dict Conversion" />
-      <item value="get Bytask Id No Dict Conversion" />
-      <item value="无字典转换" />
-      <item value="get Task Id No Dict Convert" />
-      <item value="get Bytask Id No Dict Convert" />
-      <item value="get Bytask Id No Convert Dict" />
-      <item value="Data Item" />
-      <item value="finish" />
-      <item value="file Directory Path" />
-      <item value="directory Path" />
-      <item value="rename Same File Name" />
-      <item value="Solution" />
-      <item value="exist" />
-      <item value="Relation" />
-      <item value="complet" />
-      <item value="read Success Cd Id List" />
-      <item value="features" />
-      <item value="logout Sub System" />
-      <item value="清除token失败" />
-      <item value="Invalidating" />
-      <item value="splice" />
-      <item value="拼接" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="53" />
-        <entry key="ENGLISH" value="54" />
+        <entry key="CHINESE" value="95" />
+        <entry key="ENGLISH" value="96" />
         <entry key="ROMANIAN" value="2" />
+        <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
+        <entry key="TELUGU" value="1" />
+        <entry key="SPANISH" value="1" />
       </map>
     </option>
   </component>
