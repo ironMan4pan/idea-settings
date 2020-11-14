@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="/ Add protocol if not provided (prefilters might expect it)&#10;&#9;&#9;// Handle falsy url in the settings object (#10093: consistency with old signature)&#10;&#9;&#9;// We also use the url parameter if available" />
       <item value="Building a settings object" />
       <item value="Extending" />
       <item value="&#9;// Creates a full fledged settings object into target&#10;&#9;// with both ajaxSettings and settings fields.&#10;&#9;// If target is omitted, writes into ajaxSettings." />
@@ -50,12 +51,11 @@
       <item value="本期新增评价数" />
       <item value="period" />
       <item value="本期信用评价总数" />
-      <item value="最新评估日期" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="98" />
-        <entry key="ENGLISH" value="99" />
+        <entry key="CHINESE" value="99" />
+        <entry key="ENGLISH" value="100" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
