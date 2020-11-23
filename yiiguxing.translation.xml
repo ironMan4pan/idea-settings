@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="/*&#10; * Copyright 2002-2016 the original author or authors.&#10; *&#10; * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);&#10; * you may not use this file except in compliance with the License.&#10; * You may obtain a copy of the License at&#10; *&#10; *      https://www.apache.org/licenses/LICENSE-2.0&#10; *&#10; * Unless required by applicable law or agreed to in writing, software&#10; * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#10; * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.&#10; * See the License for the specific language governing permissions and&#10; * limitations under the License.&#10; */" />
       <item value="/ Add protocol if not provided (prefilters might expect it)&#10;&#9;&#9;// Handle falsy url in the settings object (#10093: consistency with old signature)&#10;&#9;&#9;// We also use the url parameter if available" />
       <item value="Building a settings object" />
       <item value="Extending" />
@@ -50,12 +51,11 @@
       <item value="本期新增" />
       <item value="本期新增评价数" />
       <item value="period" />
-      <item value="本期信用评价总数" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="100" />
+        <entry key="CHINESE" value="100" />
+        <entry key="ENGLISH" value="101" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
