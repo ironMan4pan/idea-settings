@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Fake content" />
       <item value="Registy" />
       <item value="Regist" />
       <item value="&#10;/**&#10; * Factory hook that allows for custom modification of new bean instances,&#10; * e.g. checking for marker interfaces or wrapping them with proxies.&#10; *&#10; * &lt;p&gt;ApplicationContexts can autodetect BeanPostProcessor beans in their&#10; * bean definitions and apply them to any beans subsequently created.&#10; * Plain bean factories allow for programmatic registration of post-processors,&#10; * applying to all beans created through this factory.&#10; *&#10; * &lt;p&gt;Typically, post-processors that populate beans via marker interfaces&#10; * or the like will implement {@link #postProcessBeforeInitialization},&#10; * while post-processors that wrap beans with proxies will normally&#10; * implement {@link #postProcessAfterInitialization}.&#10; *&#10; * @author Juergen Hoeller&#10; * @since 10.10.2003&#10; * @see InstantiationAwareBeanPostProcessor&#10; * @see DestructionAwareBeanPostProcessor&#10; * @see ConfigurableBeanFactory#addBeanPostProcessor&#10; * @see BeanFactoryPostProcessor&#10; */" />
@@ -50,12 +51,11 @@
       <item value="信用结果下降数" />
       <item value="信用结果上升数" />
       <item value="上升数" />
-      <item value="新增数" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="104" />
+        <entry key="CHINESE" value="104" />
+        <entry key="ENGLISH" value="105" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
