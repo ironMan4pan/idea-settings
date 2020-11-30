@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="2020-11-30 19:14:07.094 TRACE 30588 --- [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Returning eagerly cached instance of singleton bean 'applicationSecurity' that is not fully initialized yet - a consequence of a circular reference&#10;" />
       <item value="Authority" />
       <item value="Fake content" />
       <item value="Registy" />
@@ -50,12 +51,11 @@
       <item value="last enterprise classification" />
       <item value="上一期" />
       <item value="信用结果下降数" />
-      <item value="信用结果上升数" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="105" />
-        <entry key="ENGLISH" value="106" />
+        <entry key="CHINESE" value="106" />
+        <entry key="ENGLISH" value="107" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
