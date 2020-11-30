@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="/**&#10; * Indicates that an annotation type is automatically inherited.  If&#10; * an Inherited meta-annotation is present on an annotation type&#10; * declaration, and the user queries the annotation type on a class&#10; * declaration, and the class declaration has no annotation for this type,&#10; * then the class's superclass will automatically be queried for the&#10; * annotation type.  This process will be repeated until an annotation for this&#10; * type is found, or the top of the class hierarchy (Object)&#10; * is reached.  If no superclass has an annotation for this type, then&#10; * the query will indicate that the class in question has no such annotation.&#10; *&#10; * &lt;p&gt;Note that this meta-annotation type has no effect if the annotated&#10; * type is used to annotate anything other than a class.  Note also&#10; * that this meta-annotation only causes annotations to be inherited&#10; * from superclasses; annotations on implemented interfaces have no&#10; * effect.&#10; *&#10; * @author  Joshua Bloch&#10; * @since 1.5&#10; * @jls 9.6.3.3 @Inherited&#10; */" />
+      <item value="Inherited" />
       <item value="Reactive" />
       <item value="Reactive User Details Service" />
       <item value="a consequence of a circular reference" />
@@ -49,13 +51,11 @@
       <item value="rapid change" />
       <item value="急剧变化" />
       <item value="急剧下降" />
-      <item value="sharp" />
-      <item value="Sharp" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="110" />
-        <entry key="ENGLISH" value="111" />
+        <entry key="CHINESE" value="112" />
+        <entry key="ENGLISH" value="113" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
