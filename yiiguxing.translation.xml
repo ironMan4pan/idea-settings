@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="// If the pattern ends with {@code /**} and has no other wildcards or path&#10;&#9;&#9;&#9;// variables, then optimize to a sub-path match" />
+      <item value="/**&#10;&#9; * Creates a matcher with the supplied pattern which will match the specified Http&#10;&#9; * method&#10;&#9; *&#10;&#9; * @param pattern the ant pattern to use for matching&#10;&#9; * @param httpMethod the HTTP method. The {@code matches} method will return false if&#10;&#9; * the incoming request doesn't doesn't have the same method.&#10;&#9; * @param caseSensitive true if the matcher should consider case, else false&#10;&#9; * @param urlPathHelper if non-null, will be used for extracting the path from the HttpServletRequest&#10;&#9; */" />
+      <item value="case Sensitive" />
       <item value="extend" />
       <item value="/**&#10; * Indicates that an annotation type is automatically inherited.  If&#10; * an Inherited meta-annotation is present on an annotation type&#10; * declaration, and the user queries the annotation type on a class&#10; * declaration, and the class declaration has no annotation for this type,&#10; * then the class's superclass will automatically be queried for the&#10; * annotation type.  This process will be repeated until an annotation for this&#10; * type is found, or the top of the class hierarchy (Object)&#10; * is reached.  If no superclass has an annotation for this type, then&#10; * the query will indicate that the class in question has no such annotation.&#10; *&#10; * &lt;p&gt;Note that this meta-annotation type has no effect if the annotated&#10; * type is used to annotate anything other than a class.  Note also&#10; * that this meta-annotation only causes annotations to be inherited&#10; * from superclasses; annotations on implemented interfaces have no&#10; * effect.&#10; *&#10; * @author  Joshua Bloch&#10; * @since 1.5&#10; * @jls 9.6.3.3 @Inherited&#10; */" />
       <item value="Inherited" />
@@ -23,7 +26,6 @@
       <item value="exist Any Request Config" />
       <item value="current Is Any Request Config" />
       <item value="/* (non-Javadoc)&#10;&#9; * @see com.imooc.security.core.authorize.AuthorizeConfigManager#config(org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer.ExpressionInterceptUrlRegistry)&#10;&#9; */" />
-      <item value="case Sensitive" />
       <item value="Indicates the dependency is optional for use of this library. While the version of the dependency will be&#10;            taken into account for dependency calculation if the library is used elsewhere, it will not be passed on&#10;            transitively." />
       <item value="swtich" />
       <item value="encrypted Password" />
@@ -49,13 +51,11 @@
       <item value="lisense" />
       <item value="/**&#10; * Beans on which the current bean depends. Any beans specified are guaranteed to be&#10; * created by the container before this bean. Used infrequently in cases where a bean&#10; * does not explicitly depend on another through properties or constructor arguments,&#10; * but rather depends on the side effects of another bean's initialization.&#10; *&#10; * &lt;p&gt;A depends-on declaration can specify both an initialization-time dependency and,&#10; * in the case of singleton beans only, a corresponding destruction-time dependency.&#10; * Dependent beans that define a depends-on relationship with a given bean are destroyed&#10; * first, prior to the given bean itself being destroyed. Thus, a depends-on declaration&#10; * can also control shutdown order.&#10; *&#10; * &lt;p&gt;May be used on any class directly or indirectly annotated with&#10; * {@link org.springframework.stereotype.Component} or on methods annotated&#10; * with {@link Bean}.&#10; *&#10; * &lt;p&gt;Using {@link DependsOn} at the class level has no effect unless component-scanning&#10; * is being used. If a {@link DependsOn}-annotated class is declared via XML,&#10; * {@link DependsOn} annotation metadata is ignored, and&#10; * {@code &lt;bean depends-on=&quot;...&quot;/&gt;} is respected instead.&#10; *&#10; * @author Juergen Hoeller&#10; * @since 3.0&#10; */" />
       <item value="&#9;/**&#10;&#9; * Set the ttl to apply for cache entries. Use {@link Duration#ZERO} to declare an eternal cache.&#10;&#9; *&#10;&#9; * @param ttl must not be {@literal null}.&#10;&#9; * @return new {@link RedisCacheConfiguration}.&#10;&#9; */" />
-      <item value="rapid change" />
-      <item value="急剧变化" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="113" />
-        <entry key="ENGLISH" value="114" />
+        <entry key="CHINESE" value="116" />
+        <entry key="ENGLISH" value="117" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
