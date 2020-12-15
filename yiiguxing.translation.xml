@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="        //Method annotated with @Bean is called directly. Use dependency injection instead. &#10;" />
       <item value="&#10;SQL Server 2019 will run as non-root by default.&#10;This container is running as user root.&#10;To learn more visit https://go.microsoft.com/fwlink/?linkid=2099216.&#10;The SQL Server End-User License Agreement (EULA) must be accepted before SQL&#10;&#10;Server can start. The license terms for this product can be downloaded from&#10;&#10;http://go.microsoft.com/fwlink/?LinkId=746388.&#10;&#10;&#10;You can accept the EULA by specifying the --accept-eula command line option,&#10;&#10;setting the ACCEPT_EULA environment variable, or using the mssql-conf tool." />
       <item value="max Sessions Prevents Login" />
       <item value="/**&#10;&#9; * Creates a matcher with the supplied pattern which will match the specified Http&#10;&#9; * method&#10;&#9; *&#10;&#9; * @param pattern the ant pattern to use for matching&#10;&#9; * @param httpMethod the HTTP method. The {@code matches} method will return false if&#10;&#9; * the incoming request doesn't doesn't have the same method.&#10;&#9; * @param caseSensitive true if the matcher should consider case, else false&#10;&#9; */" />
@@ -50,12 +51,11 @@
       <item value="prepare" />
       <item value="Schedul" />
       <item value="/**&#10;     * Decrements the count of the latch, releasing all waiting threads if&#10;     * the count reaches zero.&#10;     *&#10;     * &lt;p&gt;If the current count is greater than zero then it is decremented.&#10;     * If the new count is zero then all waiting threads are re-enabled for&#10;     * thread scheduling purposes.&#10;     *&#10;     * &lt;p&gt;If the current count equals zero then nothing happens.&#10;     */" />
-      <item value="Project distribution archive is produced under this module&#10;* **core:** &#10;Core implementation&#10;* **dbdialog:** &#10;Database dialog&#10;* **ui:** &#10;User interface&#10;* **engine:** &#10;PDI engine&#10;* **engine-ext:** &#10;PDI engine extensions&#10;* **[plugins:](plugins/README.md)** &#10;PDI core plugins&#10;* **integration:** &#10;Integration tests" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="121" />
-        <entry key="ENGLISH" value="122" />
+        <entry key="CHINESE" value="122" />
+        <entry key="ENGLISH" value="123" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
