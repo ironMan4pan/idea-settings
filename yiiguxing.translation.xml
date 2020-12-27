@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Immutable" />
       <item value="conference" />
       <item value="        //Method annotated with @Bean is called directly. Use dependency injection instead. &#10;" />
       <item value="&#10;SQL Server 2019 will run as non-root by default.&#10;This container is running as user root.&#10;To learn more visit https://go.microsoft.com/fwlink/?linkid=2099216.&#10;The SQL Server End-User License Agreement (EULA) must be accepted before SQL&#10;&#10;Server can start. The license terms for this product can be downloaded from&#10;&#10;http://go.microsoft.com/fwlink/?LinkId=746388.&#10;&#10;&#10;You can accept the EULA by specifying the --accept-eula command line option,&#10;&#10;setting the ACCEPT_EULA environment variable, or using the mssql-conf tool." />
@@ -50,12 +51,11 @@
       <item value="adjust Channel Number" />
       <item value="shuffler" />
       <item value="prepare" />
-      <item value="Schedul" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="123" />
-        <entry key="ENGLISH" value="124" />
+        <entry key="CHINESE" value="124" />
+        <entry key="ENGLISH" value="125" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
