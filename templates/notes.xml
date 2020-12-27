@@ -1,0 +1,7 @@
+<templateSet group="notes">
+  <template name="aaa" value="/**&#10;* @ClassName &#10;* @Description TODO&#10;* @Author ${USER}&#10;* @Date ${DATE} ${TIME}&#10;* @Version 1.0&#10;* Modified by :  ${DATE} ${TIME}&#10;**/" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
