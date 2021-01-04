@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="validate Object Parameter" />
+      <item value="validate Object Paramemter" />
       <item value="Field" />
       <item value="pmd Known Broken" />
       <item value="Immutable" />
@@ -49,13 +51,11 @@
       <item value="/**&#10;         * If target date is previous of start time of partition setting, shift&#10;         * the delta range between target and start date to be positive value&#10;         */" />
       <item value="/**&#10;             * For circulatory partition, calculated value of target partition needs to be&#10;             * rotated to fit the partition range&#10;             */" />
       <item value="Type safe sql support, plugin can recognize mybatis dynamic sql&#10;        Code Formatter&#10;        Generate mybatis crud code by Intellij database table or add a database connection&#10;        Generate mybatis sql based on mybatis interface method name like spring data jpa, with this, you don't have to write most sql for non join query support generate statement with if test&#10;        Database generate crud could generate multiple times when you add or delete columns, plugin will auto merge code&#10;        Full mybatis sql auto complete, recognize mybatis tag in xml, like where trim set include ect,provide sql completion after those tag&#10;        Jump from mybatis dao interface to mapper xml each other&#10;        Refactor for mybatis interface method name,refid,resultMap ect&#10;        Auto complete for mybatis param,if test,foreach,resultMap,refid in sql&#10;        Generate create table sql from java class&#10;        Mybatis Param refactor and inspection&#10;        Ognl support, if test when test ${ bind foreach collection, refactor and inspection and auto completion&#10;        Jump from refid resultMap to their definition, refactor their name as well&#10;        Generate page query by mapper interface method&#10;        Spring support for mybatis, inject mybatis mapper to spring bean,support SpringBoot&#10;        Refid,resultMap,keyProperty,property auto complete&#10;        Add @param for mapper method&#10;        Resultmap column complete and inspection by parse reference select statement&#10;        Auto map resultMap column and property&#10;        Generate mybatis mapper testcase from mybatis interface method by database connection, make you test method quicker&#10;        Full inspection for mybatis, like unused sql in xml, mapper method not have sql in xml, check if resultMap property is right ect&#10;&#10;        https://github.com/gejun123456/MyBatisCodeHelper-Pro to learn more.&#10;        How to use&#10;        view on https://github.com/gejun123456/MyBatisCodeHelper-Pro&#10;        qqGroup:914051156" />
-      <item value="advice Number" />
-      <item value="adjust Channel Number" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="126" />
-        <entry key="ENGLISH" value="127" />
+        <entry key="CHINESE" value="128" />
+        <entry key="ENGLISH" value="128" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
