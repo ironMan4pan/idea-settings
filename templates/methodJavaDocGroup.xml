@@ -1,9 +1,9 @@
 <templateSet group="methodJavaDocGroup">
-  <template name="aaa" value="* &#10; * @Author gaopan&#10; * @Description TODO &#10; * @Date $time$ $date$&#10; * @param $param$&#10; * @return $return$&#10; * @Version 1.0&#10; * Modified by : gaopan $time$ $date$&#10;**/" shortcut="ENTER" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+  <template name="aaa" value="*&#10; * &#10; * @Version 1.0&#10; * @date $date$ $time$&#10; * @author gaopan&#10;        $params$&#10; * @return $returns$&#10;        * Modified by : gaopan $time$ $date$&#10;        */" shortcut="ENTER" description="" toReformat="true" toShortenFQNames="true">
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
-    <variable name="param" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
-    <variable name="return" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="groovyScript(&quot;def result=''; def params=\&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i &lt; params.size(); i++) {result+=' * @param ' + params[i] + ((i &lt; params.size() - 1) ? '\\n' : '')}; return result&quot;, methodParameters())" defaultValue="" alwaysStopAt="true" />
+    <variable name="returns" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
