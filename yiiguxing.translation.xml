@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="validate" />
       <item value="Indices" />
       <item value="Indice" />
       <item value="indice" />
@@ -50,12 +51,11 @@
       <item value="密文密码" />
       <item value="密文" />
       <item value="en" />
-      <item value="encrypt" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="130" />
-        <entry key="ENGLISH" value="131" />
+        <entry key="CHINESE" value="131" />
+        <entry key="ENGLISH" value="132" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
