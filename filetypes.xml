@@ -5,6 +5,7 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="新建文本文档" type="PLAIN_TEXT" />
       <mapping pattern="new" type="PLAIN_TEXT" />
+      <mapping pattern="e.java" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
