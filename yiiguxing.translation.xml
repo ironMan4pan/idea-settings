@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Field" />
       <item value="Internal Authentication Service Exception" />
       <item value="Detail" />
       <item value="validate" />
@@ -10,7 +11,6 @@
       <item value="delete Algorithm By Id" />
       <item value="validate Object Parameter" />
       <item value="validate Object Paramemter" />
-      <item value="Field" />
       <item value="pmd Known Broken" />
       <item value="Immutable" />
       <item value="conference" />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="133" />
-        <entry key="ENGLISH" value="134" />
+        <entry key="CHINESE" value="134" />
+        <entry key="ENGLISH" value="135" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
