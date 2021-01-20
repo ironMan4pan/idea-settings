@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="    /**&#10;     * Gets the nano-of-second field.&#10;     *&#10;     * @return the nano-of-second, from 0 to 999,999,999&#10;     */" />
       <item value="Field" />
       <item value="Internal Authentication Service Exception" />
       <item value="Detail" />
@@ -50,12 +51,11 @@
       <item value="encrypted Password" />
       <item value="cipher Password" />
       <item value="cipher" />
-      <item value="密文密码" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="134" />
-        <entry key="ENGLISH" value="135" />
+        <entry key="CHINESE" value="135" />
+        <entry key="ENGLISH" value="136" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
