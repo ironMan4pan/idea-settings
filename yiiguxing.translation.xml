@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Supervise Access Decision Voter" />
+      <item value="Access Decision Manager" />
       <item value="check Allow If All Abstain Decisions" />
       <item value="Supervise" />
       <item value="    /**&#10;     * Gets the nano-of-second field.&#10;     *&#10;     * @return the nano-of-second, from 0 to 999,999,999&#10;     */" />
@@ -49,13 +51,11 @@
       <item value="current Is Any Request Config" />
       <item value="/* (non-Javadoc)&#10;&#9; * @see com.imooc.security.core.authorize.AuthorizeConfigManager#config(org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer.ExpressionInterceptUrlRegistry)&#10;&#9; */" />
       <item value="Indicates the dependency is optional for use of this library. While the version of the dependency will be&#10;            taken into account for dependency calculation if the library is used elsewhere, it will not be passed on&#10;            transitively." />
-      <item value="swtich" />
-      <item value="encrypted Password" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="137" />
-        <entry key="ENGLISH" value="138" />
+        <entry key="CHINESE" value="139" />
+        <entry key="ENGLISH" value="140" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
