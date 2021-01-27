@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Query was empty" />
       <item value="job Group Name" />
       <item value="Supervise Access Decision Voter" />
       <item value="Access Decision Manager" />
@@ -50,12 +51,11 @@
       <item value="/**&#10;&#9; * Allows restricting access based upon the {@link HttpServletRequest} using&#10;&#9; *&#10;&#9; * &lt;h2&gt;Example Configurations&lt;/h2&gt;&#10;&#9; *&#10;&#9; * The most basic example is to configure all URLs to require the role &quot;ROLE_USER&quot;.&#10;&#9; * The configuration below requires authentication to every URL and will grant access&#10;&#9; * to both the user &quot;admin&quot; and &quot;user&quot;.&#10;&#9; *&#10;&#9; * &lt;pre&gt;&#10;&#9; * &amp;#064;Configuration&#10;&#9; * &amp;#064;EnableWebSecurity&#10;&#9; * public class AuthorizeUrlsSecurityConfig extends WebSecurityConfigurerAdapter {&#10;&#9; *&#10;&#9; * &#9;&amp;#064;Override&#10;&#9; * &#9;protected void configure(HttpSecurity http) throws Exception {&#10;&#9; * &#9;&#9;http.authorizeRequests().antMatchers(&amp;quot;/**&amp;quot;).hasRole(&amp;quot;USER&amp;quot;).and().formLogin();&#10;&#9; * &#9;}&#10;&#9; *&#10;&#9; * &#9;&amp;#064;Override&#10;&#9; * &#9;protected void configure(AuthenticationManagerBuilder auth) throws Exception {&#10;&#9; * &#9;&#9;auth.inMemoryAuthentication().withUser(&amp;quot;user&amp;quot;).password(&amp;quot;password&amp;quot;).roles(&amp;quot;USER&amp;quot;)&#10;&#9; * &#9;&#9;&#9;&#9;.and().withUser(&amp;quot;admin&amp;quot;).password(&amp;quot;password&amp;quot;).roles(&amp;quot;ADMIN&amp;quot;, &amp;quot;USER&amp;quot;);&#10;&#9; * &#9;}&#10;&#9; * }&#10;&#9; * &lt;/pre&gt;&#10;&#9; *&#10;&#9; * We can also configure multiple URLs. The configuration below requires&#10;&#9; * authentication to every URL and will grant access to URLs starting with /admin/ to&#10;&#9; * only the &quot;admin&quot; user. All other URLs either user can access.&#10;&#9; *&#10;&#9; * &lt;pre&gt;&#10;&#9; * &amp;#064;Configuration&#10;&#9; * &amp;#064;EnableWebSecurity&#10;&#9; * public class AuthorizeUrlsSecurityConfig extends WebSecurityConfigurerAdapter {&#10;&#9; *&#10;&#9; * &#9;&amp;#064;Override&#10;&#9; * &#9;protected void configure(HttpSecurity http) throws Exception {&#10;&#9; * &#9;&#9;http.authorizeRequests().antMatchers(&amp;quot;/admin/**&amp;quot;).hasRole(&amp;quot;ADMIN&amp;quot;)&#10;&#9; * &#9;&#9;&#9;&#9;.antMatchers(&amp;quot;/**&amp;quot;).hasRole(&amp;quot;USER&amp;quot;).and().formLogin();&#10;&#9; * &#9;}&#10;&#9; *&#10;&#9; * &#9;&amp;#064;Override&#10;&#9; * &#9;protected void configure(AuthenticationManagerBuilder auth) throws Exception {&#10;&#9; * &#9;&#9;auth.inMemoryAuthentication().withUser(&amp;quot;user&amp;quot;).password(&amp;quot;password&amp;quot;).roles(&amp;quot;USER&amp;quot;)&#10;&#9; * &#9;&#9;&#9;&#9;.and().withUser(&amp;quot;admin&amp;quot;).password(&amp;quot;password&amp;quot;).roles(&amp;quot;ADMIN&amp;quot;, &amp;quot;USER&amp;quot;);&#10;&#9; * &#9;}&#10;&#9; * }&#10;&#9; * &lt;/pre&gt;&#10;&#9; *&#10;&#9; * Note that the matchers are considered in order. Therefore, the following is invalid&#10;&#9; * because the first matcher matches every request and will never get to the second&#10;&#9; * mapping:&#10;&#9; *&#10;&#9; * &lt;pre&gt;&#10;&#9; * http.authorizeRequests().antMatchers(&amp;quot;/**&amp;quot;).hasRole(&amp;quot;USER&amp;quot;).antMatchers(&amp;quot;/admin/**&amp;quot;)&#10;&#9; * &#9;&#9;.hasRole(&amp;quot;ADMIN&amp;quot;)&#10;&#9; * &lt;/pre&gt;&#10;&#9; *&#10;&#9; * @see #requestMatcher(RequestMatcher)&#10;&#9; *&#10;&#9; * @return the {@link ExpressionUrlAuthorizationConfigurer} for further customizations&#10;&#9; * @throws Exception&#10;&#9; */" />
       <item value="exist Any Request Config" />
       <item value="current Is Any Request Config" />
-      <item value="/* (non-Javadoc)&#10;&#9; * @see com.imooc.security.core.authorize.AuthorizeConfigManager#config(org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer.ExpressionInterceptUrlRegistry)&#10;&#9; */" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="139" />
-        <entry key="ENGLISH" value="140" />
+        <entry key="CHINESE" value="140" />
+        <entry key="ENGLISH" value="141" />
         <entry key="ROMANIAN" value="2" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="SLOVENIAN" value="2" />
